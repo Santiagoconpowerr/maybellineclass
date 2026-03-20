@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#inputTarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#btnAgregar {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#listaTareas {
+    list-style: none;
+}
+
+#listaTareas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+#listaTareas button {
+    background-color: #cccccc;
+    color: black;
+    border: 2px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+    align-self: center;
+}
+
